@@ -54,7 +54,6 @@ class ViewController: UIViewController {
         bigVerticalStackView.axis = .vertical;
         bigVerticalStackView.distribution = .fillEqually;
         bigVerticalStackView.spacing = 18;
-        //bigVerticalStackView.translatesAutoresizingMaskIntoConstraints = false;
         
         for row in rows {
             let horizontalStackView: UIStackView = UIStackView();
